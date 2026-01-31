@@ -1,0 +1,77 @@
+/* h1 {
+  color: blue;
+} */
+
+li {
+  color: red;
+}
+p {
+  color: gray;
+}
+
+.box {
+  border: 1px solid red;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+/* เครื่องหมาย comma (,) แปลว่า "และ" */
+h1, h2 {
+  color: navy;
+  text-align: center;
+}
+
+/* เลือก p ทุกตัว ที่อยู่ใน .container */
+.container p {
+  color: red;
+}
+
+/* เลือก p เฉพาะที่เป็นลูกติดตัว */
+.container > p {
+  color: blue;
+}
+
+h1 {
+  /* 1. สีตัวอักษร */
+  color: #333; 
+
+  /* 2. ขนาด (px, rem, em) */
+  font-size: 24px; 
+
+  /* 3. ความหนา (normal, bold, 100-900) */
+  font-weight: bold; 
+
+  /* 4. การจัดตำแหน่ง (left, center, right) */
+  text-align: center; 
+}
+
+img {
+  /* 1. กำหนดขนาด (Width/Height) */
+  width: 100%;       /* ปรับความกว้างตามกล่องที่ใส่ (หรือใส่เป็น px) */
+  max-width: 300px;  /* จำกัดความกว้างสูงสุดไม่ให้ใหญ่เกินไป */
+  height: auto;      /* สำคัญ! ช่วยรักษาสัดส่วนภาพไม่ให้เบี้ยว */
+
+  /* 2. ความโค้งมนของขอบ (Border Radius) */
+  border-radius: 8px; /* ใส่ค่ามากขอบยิ่งมน (ใส่ 50% เป็นวงกลม) */
+
+  /* 3. การจัดตำแหน่ง (Alignment) */
+  display: block;    /* เปลี่ยนสถานะให้เป็นบล็อกเพื่อจัดตำแหน่ง */
+  margin: 0 auto;    /* จัดกึ่งกลางหน้าจอ (บน-ล่าง 0, ซ้าย-ขวา auto) */
+
+  /* 4. ตกแต่งเพิ่มเติม (Decoration) */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ใส่เงาให้ดูมีมิติ */
+  object-fit: cover; /* (กรณีระบุ height) ตัดส่วนเกินออกให้ภาพเต็มกรอบสวยงาม */
+}
+
+/* font-family: "Times New Roman", serif;
+font-family: Arial, sans-serif;
+font-family: "Courier New", monospace;
+font-family: "Brush Script MT", cursive;
+font-family: Impact, fantasy; */
+
+body {
+  /* ใช้ชื่อฟอนต์ให้ตรงกับที่เลือกมา */
+  font-family: 'Kanit', sans-serif;
+}
